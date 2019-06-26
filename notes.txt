@@ -1,0 +1,45 @@
+ <!--FOOTER-->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4" id="footer">
+        <!-- Footer Elements -->
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+                    <a href="#">
+                        <img src="images/logos/main.png" alt="southland energy">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <a href="#">
+                        <img src="images/logos/engineering.png" alt="engineering">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <a href="#">
+                        <img src="images/logos/construction.png" alt="construction">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-12 mb-4">
+                    <a href="#">
+                        <img src="images/logos/energy.png" alt="energy">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <a href="#">
+                        <img src="images/logos/envise.png" alt="envise">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <a href="#">
+                        <img src="images/logos/tcm.png" alt="tcm">
+                    </a>
+                </div>
+                <!--Columns-->
+            </div>
+            <!--End row-->
+        </div>
+
+    </footer>
+    <!-- Footer -->

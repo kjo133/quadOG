@@ -1,0 +1,177 @@
+/*
+Site: Southland Quad Styles
+Author: Kevin Olson
+*/
+
+html,
+body {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+// COLORS
+.southlandOrange {
+  color: #fc4c02;
+}
+.southlandGrey {
+  color: #b0b1b1;
+}
+.southlandGreen {
+  color: #74aa50;
+}
+.southlandBlue {
+  color: #00a9e0;
+}
+.southlandBrown {
+  color: #94795d;
+}
+.southlandGold {
+  color: #ffc845;
+}
+
+.navbar-toggler {
+  cursor: pointer;
+}
+
+.container-fluid {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+// EXPERIENCE SECTIONS
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+#hero {
+  background: #0c2340;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+#mainQuad {
+  img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+  }
+}
+
+#welcomeText {
+  color: white;
+  h1 {
+    font-size: 23px;
+    margin-top: 70px;
+  }
+  img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+  }
+}
+
+#about {
+  background: #f0ecec;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#aboutLeft {
+  padding-top: 53px;
+  padding-left: 40px;
+  padding-bottom: 74px;
+  background: #0c2340;
+  color: white;
+}
+#aboutRight {
+  padding-left: 80px;
+}
+
+#innovation,
+#transformation,
+#vision {
+  background-color: #fff;
+}
+
+#collaboration,
+#community,
+#fun {
+  background-color: #f0ecec;
+}
+
+#contact {
+  background-color: #5d5d5d;
+  color: white;
+  //text-align: center;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  a {
+    color: white;
+    text-decoration: none;
+    :hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#email {
+  text-align: center;
+}
+
+#footer {
+  background-color: #333333;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  a:first-child {
+    img {
+      border-right: solid #d9d9d6;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 750px) {
+  #aboutLeft {
+    padding-top: 53px;
+    padding-left: 40px;
+    padding-bottom: 74px;
+    background: #0c2340;
+    color: white;
+  }
+  #aboutRight {
+    padding-left: 30px;
+  }
+  .container-fluid {
+    //padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #footer {
+    a:first-child {
+      img {
+        border: none;
+      }
+    }
+  }
+}
